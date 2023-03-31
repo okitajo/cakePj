@@ -29,3 +29,34 @@ Cake\Http\Runner::run() /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/
 Cake\Http\Server::run() /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Server.php, line 90
 [main] /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/webroot/index.php, line 40
 
+2023-03-31 15:24:33 notice: Please change the value of `Security.salt` in `ROOT/config/app_local.php` to a random value of at least 32 characters.
+Request URL: /
+Trace:
+Cake\Error\Debugger::checkSecurityKeys() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Error/Debugger.php, line 1144
+include /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/templates/Pages/home.php, line 98
+Cake\View\View::_evaluate() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::render() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/View/View.php, line 808
+Cake\Controller\Controller::render() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+App\Controller\PagesController::display() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/src/Controller/PagesController.php, line 65
+Cake\Controller\Controller::invokeAction() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/webroot/index.php, line 40
+

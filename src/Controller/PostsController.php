@@ -4,7 +4,19 @@ namespace App\Controller;
 class PostsController extends AppController {
     // public $autoRender = false;
 
+// ここのinitializeがクラス全体に適用される。
+    public function initialize():void
+    {
+        parent::initialize();
+        $this->viewBuilder()->setLayout('test');
+    }
+
     public function index()
+    {
+        // echo "Posts Index";
+    }
+
+    public function index2()
     {
         // echo "Posts Index";
     }
