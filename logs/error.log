@@ -1,0 +1,175 @@
+2023-03-29 11:43:56 error: [ParseError] syntax error, unexpected token ".", expecting "{" in /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/src/Controller/PostsController.php on line 4
+Stack Trace:
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/composer/ClassLoader.php:433
+- [internal]:??
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Core/App.php:161
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Core/App.php:68
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:337
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/webroot/index.php:40
+
+Request URL: /Posts
+2023-03-29 11:44:33 error: [ParseError] syntax error, unexpected token ".", expecting "{" in /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/src/Controller/PostsController.php on line 4
+Stack Trace:
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/composer/ClassLoader.php:433
+- [internal]:??
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Core/App.php:161
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Core/App.php:68
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:337
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/webroot/index.php:40
+
+Request URL: /posts
+2023-03-29 11:44:53 error: [ParseError] syntax error, unexpected token ".", expecting "{" in /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/src/Controller/PostsController.php on line 4
+Stack Trace:
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/composer/ClassLoader.php:433
+- [internal]:??
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Core/App.php:161
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Core/App.php:68
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:337
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/webroot/index.php:40
+
+Request URL: /posts
+2023-03-29 11:45:46 error: [ParseError] syntax error, unexpected identifier "publi", expecting "function" or "const" in /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/src/Controller/PostsController.php on line 7
+Stack Trace:
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/composer/ClassLoader.php:433
+- [internal]:??
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Core/App.php:161
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Core/App.php:68
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:337
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/BaseApplication.php:318
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/webroot/index.php:40
+
+Request URL: /posts
+2023-03-29 15:10:43 error: [Cake\View\Exception\MissingTemplateException] Template file `Posts/view.php` could not be found.
+
+The following paths were searched:
+
+- `/Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/templates/Posts/view.php`
+- `/Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/templates/Posts/view.php`
+ in /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/View/View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Posts/view.php',
+  'paths' => 
+  array (
+    0 => '/Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/templates/',
+    1 => '/Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/View/View.php:805
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Controller/Controller.php:773
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Controller/Controller.php:556
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/webroot/index.php:40
+
+Request URL: /posts/view/jojojo
+2023-03-29 15:42:31 error: [ParseError] syntax error, unexpected token ":", expecting "," or ";" in /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/templates/Posts/view.php on line 3
+Stack Trace:
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/View/View.php:1177
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/View/View.php:808
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Controller/Controller.php:773
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Controller/Controller.php:556
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /Users/apple/Documents/Projects/CakePhpAgain/jo_cake_pj/webroot/index.php:40
+
+Request URL: /posts/view/1
