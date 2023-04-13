@@ -1,0 +1,108 @@
+2023-04-04 17:10:36 warning: Undefined array key "driver"
+Trace:
+Migrations\Command\Phinx\Rollback::getConfig() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 119
+Phinx\Console\Command\AbstractCommand::loadManager() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Console/Command/AbstractCommand.php, line 346
+Phinx\Console\Command\AbstractCommand::bootstrap() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Console/Command/AbstractCommand.php, line 130
+Migrations\Command\Phinx\Rollback::bootstrap() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php, line 66
+Phinx\Console\Command\Rollback::execute() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Console/Command/Rollback.php, line 72
+Migrations\Command\Phinx\Rollback::parentExecute() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php, line 37
+Migrations\Command\Phinx\Rollback::execute() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/Phinx/Rollback.php, line 81
+Symfony\Component\Console\Command\Command::run() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Command/Command.php, line 312
+Symfony\Component\Console\Application::doRunCommand() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php, line 1022
+Symfony\Component\Console\Application::doRun() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php, line 314
+Symfony\Component\Console\Application::run() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php, line 168
+Migrations\Command\MigrationsCommand::execute() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/MigrationsCommand.php, line 126
+Cake\Console\BaseCommand::run() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 189
+Migrations\Command\MigrationsCommand::run() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/MigrationsCommand.php, line 198
+Cake\Console\CommandRunner::runCommand() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 334
+Cake\Console\CommandRunner::run() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 172
+[main] /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/bin/cake.php, line 12
+
+2023-04-04 17:10:36 warning: Undefined array key "database"
+Trace:
+Migrations\Command\Phinx\Rollback::getConfig() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/ConfigurationTrait.php, line 141
+Phinx\Console\Command\AbstractCommand::loadManager() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Console/Command/AbstractCommand.php, line 346
+Phinx\Console\Command\AbstractCommand::bootstrap() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Console/Command/AbstractCommand.php, line 130
+Migrations\Command\Phinx\Rollback::bootstrap() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php, line 66
+Phinx\Console\Command\Rollback::execute() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Console/Command/Rollback.php, line 72
+Migrations\Command\Phinx\Rollback::parentExecute() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php, line 37
+Migrations\Command\Phinx\Rollback::execute() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/Phinx/Rollback.php, line 81
+Symfony\Component\Console\Command\Command::run() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Command/Command.php, line 312
+Symfony\Component\Console\Application::doRunCommand() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php, line 1022
+Symfony\Component\Console\Application::doRun() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php, line 314
+Symfony\Component\Console\Application::run() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php, line 168
+Migrations\Command\MigrationsCommand::execute() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/MigrationsCommand.php, line 126
+Cake\Console\BaseCommand::run() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/BaseCommand.php, line 189
+Migrations\Command\MigrationsCommand::run() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/MigrationsCommand.php, line 198
+Cake\Console\CommandRunner::runCommand() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 334
+Cake\Console\CommandRunner::run() /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php, line 172
+[main] /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/bin/cake.php, line 12
+
+2023-04-04 17:10:36 error: [Cake\Datasource\Exception\MissingDatasourceConfigException] The datasource configuration "2" was not found. in /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php on line 196
+Exception Attributes: array (
+  'name' => '2',
+)
+Stack Trace:
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:71
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Console/Command/Rollback.php:72
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:37
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/Phinx/Rollback.php:81
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Command/Command.php:312
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:1022
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:314
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:168
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:126
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:198
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/bin/cake.php:12
+
+2023-04-04 17:59:30 error: [Symfony\Component\Console\Exception\RuntimeException] No arguments expected for "migrate" command, got "rollback". in /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Input/ArgvInput.php on line 190
+Stack Trace:
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Input/ArgvInput.php:83
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Input/ArgvInput.php:68
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Input/Input.php:52
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Command/Command.php:271
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:1022
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:314
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:168
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:126
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:198
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/bin/cake.php:12
+
+2023-04-04 20:03:41 error: [Symfony\Component\Console\Exception\RuntimeException] No arguments expected for "migrate" command, got "rollback". in /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Input/ArgvInput.php on line 190
+Stack Trace:
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Input/ArgvInput.php:83
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Input/ArgvInput.php:68
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Input/Input.php:52
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Command/Command.php:271
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:1022
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:314
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:168
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:126
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:198
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/bin/cake.php:12
+
+2023-04-04 22:16:05 error: [Symfony\Component\Console\Exception\RuntimeException] No arguments expected for "migrate" command, got "rollback". in /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Input/ArgvInput.php on line 190
+Stack Trace:
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Input/ArgvInput.php:83
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Input/ArgvInput.php:68
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Input/Input.php:52
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Command/Command.php:271
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:1022
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:314
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:168
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:126
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:198
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/bin/cake.php:12
+
