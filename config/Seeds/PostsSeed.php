@@ -23,14 +23,14 @@ class PostsSeed extends AbstractSeed
         $data = [
             [
                 'title' => '最初の投稿',
-                'desctiption' => '最初の投稿の概要',
+                'description' => '最初の投稿の概要',
                 'body' => '最初の投稿の内容',
                 'published' => 1,
                 'created' => '2023-04-03 16:30:00',
                 'modified' => '2023-04-03 16:30:00'    
             ],[
                 'title' => '2番目の投稿',
-                'desctiption' => '2番目の投稿の概要',
+                'description' => '2番目の投稿の概要',
                 'body' => '2番目の投稿の内容',
                 'published' => 1,
                 'created' => '2023-04-03 16:30:00',

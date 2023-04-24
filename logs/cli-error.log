@@ -106,3 +106,57 @@ Stack Trace:
 - /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
 - /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/bin/cake.php:12
 
+2023-04-24 13:45:03 error: [PDOException] SQLSTATE[HY000]: General error: 1 table posts has no column named desctiption in /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 333
+Stack Trace:
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php:333
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php:181
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/TimedOutputAdapter.php:102
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php:181
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Db/Table.php:656
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Db/Table.php:628
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Db/Table.php:686
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/config/Seeds/PostsSeed.php:42
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php:146
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php:420
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php:612
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Console/Command/SeedRun.php:106
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:37
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/Phinx/Seed.php:76
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Command/Command.php:312
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:1022
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:314
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:168
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:126
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:198
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/bin/cake.php:12
+
+2023-04-24 13:52:21 error: [PDOException] SQLSTATE[HY000]: General error: 1 table posts has no column named desctiption in /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 333
+Stack Trace:
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php:333
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php:181
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/TimedOutputAdapter.php:102
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php:181
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Db/Table.php:656
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Db/Table.php:628
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Db/Table.php:686
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/config/Seeds/PostsSeed.php:42
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php:146
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php:420
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php:612
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/robmorgan/phinx/src/Phinx/Console/Command/SeedRun.php:106
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/Phinx/CommandTrait.php:37
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/Phinx/Seed.php:76
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Command/Command.php:312
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:1022
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:314
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/symfony/console/Application.php:168
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:126
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/BaseCommand.php:189
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/migrations/src/Command/MigrationsCommand.php:198
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php:334
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/vendor/cakephp/cakephp/src/Console/CommandRunner.php:172
+- /Users/apple/Documents/Projects/CakePhpAgain/cakePJ/bin/cake.php:12
+
